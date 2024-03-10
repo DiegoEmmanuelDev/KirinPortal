@@ -1,0 +1,464 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+html{
+    height: 300vh;
+}
+
+
+
+
+body{
+    background-color: #000000;
+    display: flexbox;
+}
+
+
+
+
+
+
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+#footer_social_media .footer-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 2.5rem;
+   width: 2.5rem;
+   color: rgb(255, 255, 255);
+   border-radius: 50%;
+}
+
+
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+
+
+
+#X {
+    background-color: #6b6b6b;
+}
+
+
+
+#whatsapp{
+    background-color: #25d366;
+}
+
+
+
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    font-size: larger;
+}
+
+
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+.logo {
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+
+}
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 10vh;
+}
+
+
+
+
+main{
+    margin-top: 94px;
+    background: url(img/yasuo\ 4k.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    
+}
+
+
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    width: 1300px;
+}
+
+
+
+
+.nav-list li{
+    letter-spacing: 5px;
+    margin-left: 130px;
+    width: 150px;
+    
+    
+}
+
+
+
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+
+}
+
+
+
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.nav-list.active {
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+
+
+
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+
+}
+
+
+
+
+.mobile-menu.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px);
+
+}
+
+
+
+
+nav i {
+    font-size: 60px
+    
+}
+
+
+
+
+nav div i{
+    pointer-events: visible;
+}
+
+
+
+
+
+
+header{
+    background: black;
+    width: 100%;
+    padding: 0px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+footer{
+
+    width: 100%;
+    color: #fff;
+}
+
+
+
+
+#footer_content{
+    background-color: #000000;
+    padding: 3rem 3.5rem;
+    display: flex;
+    
+}
+
+
+
+
+footer ul li{
+    display: inline-block;
+    margin: 0 140px;
+
+}
+
+
+
+
+.corpo{
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    background-color: #000000;
+}
+
+
+.monster1{
+    
+    padding: 35px;
+    margin-left: 35%;
+    display: flex;
+    margin-top: 0;
+}
+
+
+.monster2{
+    padding: 55px;
+    margin-right:  0;
+    display: flex;
+    margin-top: 0;
+}
+
+
+
+.texto1{
+    padding: 25px;
+    margin-right: 42%;
+    top: 50;
+}
+
+
+
+.paragrafo1{
+    text-align: center;
+    margin-right: 30%;
+}
+
+
+
+.lol{
+    padding: 10px;
+}
+
+
+
+.loltext1{
+    padding: 50px;
+}
+
+
+
+.loltext2{
+    padding: 25px;
+    color: #ffffff;
+}  
+
+
+
+
+.animes{
+    padding: 35px;
+}
+
+
+
+
+.morte{
+    padding: 20px;
+}
+
+
+.animeconteudo{
+    padding: 20px;
+}
+
+
+
+.previa{
+    padding: 40px;
+}
+
+.previatexto{
+    padding: 30px;
+}
+
+.titulolol{
+    padding: 25px;
+}
+
+
+/*celulares*/
+
+@media (max-width: 450px) {
+    .corpo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .monster1 img {
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    .monster2 iframe {
+        max-width: 100%;
+        height: auto;
+           
+    }
+
+    .lol img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cinematiclol iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .animes img {
+        max-width: 100%;
+        height: auto;
+    }  
+
+    .morte img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imgprevia img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .previayt iframe {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .paragrafo1 h1 {
+        max-width: 100%;
+        height: auto;
+    
+    }
+
+    .header nav div {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nav-list {
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+.juntos{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
